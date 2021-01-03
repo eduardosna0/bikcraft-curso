@@ -1,0 +1,70 @@
+.interna-contato{
+    background: url("../img/bg-contato.jpg") no-repeat center;
+    color: #fff;
+    background-size: cover;
+}
+
+.contato-form{
+    padding: 40px 0;    
+    width: 100%;
+}
+
+
+.contato-form form label {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 4px;
+}
+
+.contato-form form{
+    padding-right: 60px;
+}
+
+.contato-form input, textarea{
+    border: 4px solid #fec63e;
+    background: none;
+    width: 100%;
+    padding: 7px 10px;
+    outline: none;    
+    margin-bottom: 10px;
+}
+
+#btn-contato{
+    background: none;
+    padding: 7px 40px;
+    outline: none;
+}
+#btn-contato:hover{
+    cursor: pointer;
+}
+
+
+.dados-contato h3{
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color:#fec63e;
+    font-weight: bold;
+}
+
+.dados-contato span{
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Georgia, "Times New Roman", serif;
+    
+}
+.dados-contato span:nth-of-type(even){
+    margin-bottom: 30px;
+}
+
+.dados-contato p{
+    margin: 8px 0;
+}
+
+
+.redes-sociais-contato a:hover, .footer-redes-sociais.redes-sociais-contato a:hover{
+    border-color: #000000;
+}

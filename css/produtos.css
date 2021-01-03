@@ -1,0 +1,154 @@
+.interna-produtos{
+    background: url("../img/bg-produtos.jpg") no-repeat center;
+    color: #fff;
+    background-size: cover;
+}
+
+.produto-item{
+    padding-top: 60px;
+}
+
+
+.produto-item h2{
+    font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    top: -180px;
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+
+.produto-item h2:before, .produto-item h2:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #fff;
+    margin: 8px auto;
+}
+
+
+
+.produto-card{
+    padding: 70px 0;
+    background-color: #000000;    
+}
+
+.produto-card img{
+    margin: 0 auto;
+}
+
+
+.produto-info{
+    background: #000000;    
+}
+.produto-info p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 30px 40px;
+    height: 180px;
+}
+
+.produto-info ul li{
+    background: #fec63e;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 20px;    
+    text-align: center;    
+    font-weight: bold;
+    padding-top: 16px;
+    float: left;
+    width: 229px;
+    height: 49px;
+}
+
+.produto-info ul li:nth-child(1), .produto-info ul li:nth-child(2){
+    margin-bottom: 2px;
+}
+
+
+.produto-info ul li:nth-child(even){
+    margin-left: 2px;
+}
+
+.orcamento{
+    margin-top: 40px;
+    padding: 60px 0;
+    background-color: #000000;
+    width: 100%;
+}
+
+
+.orcamento form label {
+    color: #fff;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 4px;
+}
+
+.orcamento form{
+    padding-right: 60px;
+}
+
+.orcamento input, textarea{
+    border: 4px solid #fec63e;
+    background: none;
+    width: 100%;
+    padding: 7px 10px;
+    outline: none;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#btn-contato{
+    background: none;
+    padding: 7px 40px;
+}
+#btn-contato:hover{
+    cursor: pointer;
+}
+
+
+.orcamento-contato{
+    color: #fff;
+}
+
+.orcamento-contato h3{
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color:#fec63e;
+    font-weight: bold;
+}
+
+.orcamento-contato span{
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Georgia, "Times New Roman", serif;
+    
+}
+.orcamento-contato span:nth-of-type(2){
+    margin-bottom: 40px;
+}
+
+.orcamento-contato p{
+    margin: 8px 0;
+}
+
+
+.orcamento-contato ul li{
+    font-size: 14px;
+    padding: 10px 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.orcamento-contato ul li:nth-child(odd){
+    background-color: #1d1d1d;
+}
